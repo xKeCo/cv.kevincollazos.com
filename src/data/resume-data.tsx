@@ -52,6 +52,12 @@ export const RESUME_DATA = {
   },
   education: [
     {
+      school: "Pontificia Universidad Javeriana",
+      degree: "DevOps Certification",
+      start: "2024",
+      end: "2024",
+    },
+    {
       school: "Universidad Autónoma de Occidente",
       degree: "Bachelor's Degree in Computer Science Engineering",
       start: "2018",
