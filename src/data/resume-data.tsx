@@ -1,21 +1,12 @@
 import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
   ClevertechLogo,
   ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
   JarockiMeLogo,
   JojoMobileLogo,
   Minimal,
-  MobileVikingsLogo,
   MonitoLogo,
   NSNLogo,
   ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -31,7 +22,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://kevincollazos.com/",
   contact: {
     email: "kevcollazos@gmail.com",
-    tel: "+573136415647",
+    tel: "https://wa.me/573136415647",
     social: [
       {
         name: "GitHub",
@@ -52,7 +43,13 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Pontificia Universidad Javeriana",
+      school: "Pontificia Universidad Javeriana Cali",
+      degree: "Master in Software Engineering",
+      start: "2024",
+      end: "Present",
+    },
+    {
+      school: "Pontificia Universidad Javeriana Cali",
       degree: "DevOps Certification",
       start: "2024",
       end: "2024",
@@ -82,7 +79,7 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Institutional internship | Software engineer",
       logo: ClevertechLogo,
-      start: "Feb. 2023",
+      start: "Jan. 2023",
       end: "Dec. 2023",
       description:
         "Development of a software system for the management of activities that contribute to the high quality accreditation of the programs of the Faculty of Engineering of the Universidad Autónoma de Occidente. Technologies: Next.js, TypeScript, Redux.js, Node.js, Express.js, MongoDB, Figma, UI/UX, Git, GitHub.",
@@ -119,6 +116,8 @@ export const RESUME_DATA = {
     "Redux.js",
     "Node.js",
     "Express.js",
+    "Prisma ORM",
+    "PostgreSQL",
     "MongoDB",
     "MySQL",
     "Google Firebase",
@@ -129,6 +128,27 @@ export const RESUME_DATA = {
     "Unit Testing",
   ],
   projects: [
+    {
+      title: "MOSS - Dental Software",
+      techStack: [
+        "Side Project",
+        "Work in Progress",
+        "TypeScript",
+        "Next.js",
+        "Prisma ORM",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Auth.js",
+        "Figma",
+      ],
+      description:
+        "The new way to keep digital medical records. Work in progress.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "MOSS",
+        href: "https://mossdental.vercel.app/",
+      },
+    },
     {
       title: "AcrediX - UAO",
       techStack: [
