@@ -16,12 +16,11 @@ export const RESUME_DATA = {
   location: "Cali, Colombia, COT",
   locationLink: "https://www.google.com/maps/place/Cali",
   about: "Software engineer",
-  summary:
-    "Software Engineer with 4+ years of experience in web and mobile application development. I also have a strong background in SQL and NoSQL database design, as well as skills in UX/UI design, Figma, accessibility, SEO, and related areas. I have theoretical knowledge and practical experience, providing a comprehensive set of skills to tackle diverse challenges.",
+  summary: `Software Engineer with over 3 years of experience specializing in Frontend development. Proficient in building modern, responsive web applications using technologies such as React.js, Next.js, Angular, and TypeScript. Skilled in translating UX/UI designs from Figma into accessible and SEO-optimized interfaces. Familiar with state management using Redux, unit testing with Jest, and backend integration through RESTful APIs. Experienced in applying CI/CD practices using tools like Jenkins, and version control with Git/GitHub. Committed to writing clean, maintainable code and contributing to collaborative, agile development environments.`,
   avatarUrl: "/kevin_collazos_foto.jpg",
   personalWebsiteUrl: "https://kevincollazos.com/",
   contact: {
-    email: "kevcollazos@gmail.com",
+    email: "hi@kcollazos.me",
     tel: "https://wa.me/573136415647",
     social: [
       {
@@ -70,8 +69,9 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       start: "Aug. 2023",
       end: "Present",
-      description:
-        "Design and development of web applications to optimize data management for the research centers that are part of CGIAR, enhancing efficiency in research and reporting of results. Technologies: Angular, TypeScript, PrimeNG, Jest, Git, GitHub.",
+      description: ` 
+        Development and optimi zation of web applications for research data management in centers belonging to CG IAR, improving efficiency
+        in research and results reporting. Technologies: Angular, TypeScript, PrimeNG, Jest, Git, GitHub.`,
     },
     {
       company: "Universidad Autónoma de Occidente",
@@ -104,18 +104,21 @@ export const RESUME_DATA = {
       start: "July. 2018",
       end: "Dec. 2022",
       description:
-        "Development of web and desktop applications that allow and speed up the automation of daily functions such as: Web application for inventory management, medical records management and billing administration. In addition to the maintenance and design of the official website of the company.",
+        "Freelance development of web applications for automation of daily clinic functions.",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
     "React/Next.js",
-    "React Native",
     "Angular",
-    "Redux.js",
+    "React Native",
+    "Jest",
+    "Unit Testing",
     "Node.js",
+    "NestJS",
     "Express.js",
+    "Redux.js",
     "Prisma ORM",
     "PostgreSQL",
     "MongoDB",
@@ -124,8 +127,6 @@ export const RESUME_DATA = {
     "Git",
     "GitHub",
     "Figma",
-    "Jest",
-    "Unit Testing",
   ],
   projects: [
     {
